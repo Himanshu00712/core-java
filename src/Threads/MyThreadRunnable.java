@@ -1,6 +1,10 @@
-public class MyThread extends Thread {
+package Threads;
+
+import Threads.MyThread;
+
+public class MyThreadRunnable implements Runnable{
     public void run() {
-        System.out.println("Kartik's thread...");
+        System.out.println("Kartik's Thread...");
     }
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
